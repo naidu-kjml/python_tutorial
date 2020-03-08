@@ -4,12 +4,13 @@
 l1 = list()
 l2 = []
 l3 = [1] * 10
+
 l4 = ["salah"] * 5
 #print(l4)
 l5 = range(20) #donné des valeurs entre 0 est 20
 """
 for v in l5:
-    print(v)
+    print(l5[v])
 """
 l6 = ["said","salah","safaa","salwa","saad","samira","samir"]
 # print(l6[3:]) # nous rendre les elements qui se trouve aprés index 3 de la liste  
@@ -38,7 +39,7 @@ print(my_text)
 
 """
 # cette copier quand on ajoute un element a la deuxieme liste il ajoute automatiquement a la premiere liste
-# # donc c'est pas pratique par e que il faut quand garde otre premiere liste libre 
+# # donc c'est pas pratique par e que il faut quand garde notre premiere liste libre 
 # #pour cela on travaille avec package copy    
 l7 = ["said","salah","safaa"]
 l8 = l7
@@ -61,7 +62,24 @@ l11 = ["said","salah","safaa"]
 l12 = ["salma","samir"]
 l11 += l12
 #l11 = l11 + l12
-print(l11)
+#print(l11)
 
+"""
 for k,v in enumerate(l11):
     print("indice d'element {} est -> {}".format(v,k))
+"""
+l15 = [[1,5],[7,5],[3,6]]
+#print(l15[0][1])
+"""
+for r in l15:
+    print(r)
+    for t in r:
+        print(t)
+"""
+arr = [5,9,3,1,5]
+
+for i in range(5):
+    print(arr[i])
+
+for n in arr:
+    print(n)

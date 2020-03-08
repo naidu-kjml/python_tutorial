@@ -17,9 +17,12 @@ class Comptable(Employe):
         Employe.__init__(self,nom,age)
         self._fonction = fonction
     
+    def afficherComp(self):
+        print("Comptable {} est : {}".format(self._nom,self._age))
 
 
 #Programme principale
 
 c1 = Comptable("salah",26,"comp")
 c1.afficher()
+c1.afficherComp()

@@ -8,10 +8,10 @@ class Personne :
     
     # si on a pas un controlle sur les methodes getters et seetters donc c'est unitile de l'utilisé
     def _getage(self):
-    try:
-        return self._age
-    except AttributeError :
-        print("l'age n'existe pas")
+        try:
+            return self._age
+        except AttributeError :
+            print("l'age n'existe pas")
     
     def _setage(self, nouvelle_age):
         if nouvelle_age < 0 :

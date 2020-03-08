@@ -5,7 +5,7 @@ class Personne :
     ville_actu = "Marrakech"
 
     # Cnostructeur
-    def __init__(self,p_name="",p_sexe="",p_age=""):
+    def __init__(self,p_name="",p_sexe="",p_age=""):# p_name="" pour donnée une valeur par defaut a cette ettribut 
         self.name = p_name
         self.sexe = p_sexe
         self.age = p_age

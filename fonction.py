@@ -42,4 +42,3 @@ prix_tcc = lambda prix_uni,qtt_pro : (prix_uni * qtt_pro) + ((prix_uni * qtt_pro
 
 print(prix_tcc(10,2))
 
-#def lambdaa :(prix_uni * qtt_pro) + ((prix_uni * qtt_pro) * 0.20)

@@ -41,10 +41,12 @@ num_set.pop()
 print(num_set)
 num_set.pop()
 print(num_set)
+
 #remove() function:
 num_set = set([0, 1, 2, 3, 4, 5])
 num_set.remove(0)
 print(num_set)
+
 #discard() function:
 num_set = set([0, 1, 2, 3, 4, 5])
 num_set.discard(3)

@@ -10,9 +10,10 @@ except ValueError:
     print("entrer un nombre valide")
 """
 #value exception error 
-nbr_util = input("entrer nbr util ici : \n")
-nbr_depa = input("entrer nbr depa ici : \n")
+
 try:
+    nbr_util = input("entrer nbr util ici : \n")
+    nbr_depa = input("entrer nbr depa ici : \n")
     nbr_util = int(nbr_util)
     nbr_depa = int(nbr_depa)
     nbr = nbr_util / nbr_depa

@@ -1,21 +1,29 @@
 
 # Création d'une liste
+my_list1 = [5, 12, 13, 14] # the list contains all integer values
+my_list2 = ['red', 'blue', 'black', 'white'] # the list contains all string
+my_list3 = ['red', 12, 112.12] # the list contains a string, an integer and
+#print(my_list2)
 
 l1 = list()
 l2 = []
+
 l3 = [1] * 10
+#print(l3)
 
 l4 = ["salah"] * 5
 #print(l4)
+
 l5 = range(20) #donné des valeurs entre 0 est 20
 """
 for v in l5:
     print(l5[v])
 """
-l6 = ["said","salah","safaa","salwa","saad","samira","samir"]
-# print(l6[3:]) # nous rendre les elements qui se trouve aprés index 3 de la liste  
-# print(l6[:3]) # nous rendre les elements qui se trouve avans index 3 de la liste  
-# print(l6[2:4]) # nous rendre les elements qui se trouve entre index 2 et 4 
+
+l6 = ["said","salah","safaa","salwa","saad","samira","samir","salma","saif","samia"]
+print(l6[3:]) # nous rendre les elements qui se trouve aprés index 3 de la liste, 3 est parmie les idices 
+print(l6[:3]) # nous rendre les elements qui se trouve avans index 3 de la liste, on compte pas indice 3
+print(l6[2:4]) # nous rendre les elements qui se trouve entre index 2 et 4 
 """
 if "said" in l6 :
     print("yes")
@@ -30,6 +38,7 @@ else:
 # l6.sort() trie 
 # l6.reverse()
 # l6.count("salah") # count le nbr de fois un element exist dans cette liste
+
 """
 my_list = ["bonjour","tout","le","monde"]
 my_text = " ".join(my_list)
@@ -39,24 +48,25 @@ print(my_text)
 
 """
 # cette copier quand on ajoute un element a la deuxieme liste il ajoute automatiquement a la premiere liste
-# # donc c'est pas pratique par e que il faut quand garde notre premiere liste libre 
-# #pour cela on travaille avec package copy    
+# donc c'est pas pratique par ce que il faut quand garde notre premiere liste libre 
+#pour cela on travaille avec package copy   
+""" 
 l7 = ["said","salah","safaa"]
 l8 = l7
-print(l7)
-print(l8)
+#print(l7)
+#print(l8)
 l8.append("salma")
-print(l7)
-print(l8)
+#print(l7)
+#print(l8)
 import copy
 l9 = ["said","salah","safaa"]
 l10 = copy.deepcopy(l9)
-print(l9)
-print(l10)
+#print(l9)
+#print(l10)
 l10.append("salma")
-print(l9)
-print(l10)
-"""
+#print(l9)
+#print(l10)
+
 #pour faire la concatunation entre les listes
 l11 = ["said","salah","safaa"]
 l12 = ["salma","samir"]
@@ -77,9 +87,13 @@ for r in l15:
         print(t)
 """
 arr = [5,9,3,1,5]
-
+"""
 for i in range(5):
     print(arr[i])
 
 for n in arr:
     print(n)
+"""
+
+
+

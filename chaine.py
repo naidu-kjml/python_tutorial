@@ -18,7 +18,7 @@ my_chaine = "bonjour tout le monde"
 
 #  my_chaine = my_chaine.replace("bonjour","bonsoir") # str.replace(<old_value>,<new_value>,<start>,<end>) pour changer une valeur 
 
-#my_chaine = my_chaine.split(" ") 
+#  my_chaine = my_chaine.split(" ") 
 
 # index = my_chaine.find("tout") # str.find(<chaine de caractere>,<start>,<end>) il nous rendre index de cette chaine sur notre variable et nous rendre -11 si il n'a rien trouver 
 

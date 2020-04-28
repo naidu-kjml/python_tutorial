@@ -7,15 +7,19 @@ Tuples play a sort of "struct" role in Python -- a convenient way to pass around
 #create an empty tuple
 tuplex = tuple()
 print (tuplex)
+
 #create a tuple with different data types
 tuplex = ('tuple', False, 3.2, 1)
 print (tuplex)
+
 #create a tuple with numbers, notation without parenthesis
 tuplex = 4, 7, 3, 8, 1 
 print (tuplex)
+
 #create a tuple of one item, notation without parenthesis
 tuplex = 4, 
 print (tuplex)
+
 #create a tuple from a iterable object
 tuplex = tuple([True, False]) 
 print (tuplex)
@@ -25,9 +29,11 @@ print (tuplex)
 #create a tuple
 tuplex = ("w", 3, "r", "e", "s", "o", "u", "r", "c", "e") 
 print(tuplex)
+
 #get item (4th element)of the tuple by index
 item = tuplex[3]
 print(item)
+
 #get item (4th element from last)by index negative
 item1 = tuplex[-4]
 print(item1)

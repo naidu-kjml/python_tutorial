@@ -26,9 +26,6 @@ class Personne :
 
 
 
-
-
-
 # Maintenant on est pas sur la class personne
 
 p1 = Personne("salah","H",25)

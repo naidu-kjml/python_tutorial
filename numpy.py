@@ -1,10 +1,8 @@
 from array import *
 
-
 arr2 =  array("i",[1,5,68,3,5])
-
 print(arr2)
-print(arr2.buffer_info())#the firsy parametre is the adresse and the second is the size
+print(arr2.buffer_info())#the firs parametre is the adresse and the second is the size
 
 arr = [5,9,3,1,5]
 
